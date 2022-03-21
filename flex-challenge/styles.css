@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+body{
+    display: flex;
+    padding: 3ch;
+}
+section{
+     margin: 0 2ch;
+}
+#top-left{
+    width: 90.1ch
+}
+#top-left h1{
+    font-size: 5em;
+}
+#top-left ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none
+}
+#top-left article{
+    display: flex;
+    margin-top: 3ch;
+}
+
+#top-left article img{
+    margin-right: 2ch;
+    width: 150px;
+}
+
+#top-left article .content .content-divider{
+    display: flex;
+    margin-top: 2ch;;
+}
+
+#top-left article .content .content-divider p{
+    width: 40ch;
+}
+
+#top-right{
+    margin-left: 2ch;
+}
+#top-right img{
+    margin-left: 2ch;
+    width: 600px;
+}
