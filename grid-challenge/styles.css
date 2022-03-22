@@ -48,8 +48,15 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 3ch;
 }
-#body #top-half #top-half__middle_img {
+#body #top-half #top-half__middle #top-half__middle_img {
   width: 60ch;
+}
+#body #top-half #top-half__right #article-two {
+  display: grid;
+  grid-template: "article-two__h1 article-two__h1" auto "article-two__p1 article-two__p2" auto "article-two__p3 article-two__ul" auto/auto auto;
+}
+#body #top-half #top-half__right #article-two #article-two__ul {
+  list-style: none;
 }
 #body #bottom-half {
   display: grid;

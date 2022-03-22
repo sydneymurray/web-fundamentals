@@ -45,8 +45,23 @@ section{
                 }
             }
         }
-        #top-half__middle_img{
-            width: 60ch;
+        #top-half__middle{
+            #top-half__middle_img{
+                width: 60ch;
+            }
+        }
+        #top-half__right{
+            #article-two{
+                display: grid;
+                grid-template:
+                "article-two__h1 article-two__h1" auto
+                "article-two__p1 article-two__p2" auto
+                "article-two__p3 article-two__ul" auto/
+                auto auto;
+                #article-two__ul{
+                    list-style: none;
+                }
+            }
         }
     }
     #bottom-half{
@@ -55,3 +70,4 @@ section{
         gap: 3ch;
     }
 }
+
