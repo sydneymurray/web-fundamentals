@@ -15,16 +15,18 @@ section{
     padding: 5ch;
     #top-half{
         display: grid;
-        grid-template-columns: 92ch auto auto;
+        grid-template-columns: 98ch 60ch auto;
         gap: 3ch;
         #top-half__left h1{
             font-size: 5em;
+            margin: 0.5ch;
         }
         #top-half__left ul{
             display: grid;
             grid-template-columns: auto auto auto auto;
             text-align: center;
             list-style-type: none;
+            margin: 3ch;
         }
         #article-one{
             display: grid;
@@ -52,14 +54,18 @@ section{
         }
         #top-half__right{
             #article-two{
-                display: grid;
-                grid-template:
-                "article-two__h1 article-two__h1" auto
-                "article-two__p1 article-two__p2" auto
-                "article-two__p3 article-two__ul" auto/
-                auto auto;
-                #article-two__ul{
-                    list-style: none;
+                #article-two__h1{
+                    font-size: 5em;
+                    text-align: center;
+                }
+                #article-two__columns{
+                    display: grid;
+                    grid-template-columns: 250px 250px;
+                    gap: 3ch;
+                    margin: 3ch;
+                    #article-two__ul{
+                        list-style-type: none;
+                    }
                 }
             }
         }
